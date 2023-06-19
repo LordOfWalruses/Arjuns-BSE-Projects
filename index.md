@@ -45,8 +45,8 @@ For your first milestone, describe what your project is and how you plan to buil
 # Starter Project
 
 My starter project was the digital clock. It can tell the time, temperature, date, and even wake you up with an alarm!
-<iframe width="560" height="315" src="https://www.youtube.com/embed?v=ozKAnxqSFMM&list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI&index=18" title="Starter Project Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<iframe width="1008" height="567" src="https://www.youtube.com/embed/ozKAnxqSFMM?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
