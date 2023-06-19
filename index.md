@@ -44,7 +44,10 @@ For your first milestone, describe what your project is and how you plan to buil
 -->
 # Starter Project
 
-My starter project was the digital clock. It can tell the time, temperature, date, and even wake you up with an alarm!
+My starter project was the digital clock. It can tell the time, temperature, date, and even wake you up with an alarm! The clock has a lot of intricate components, like the crystal oscilator, which tells time and seconds. The whole setup is controlled by two IC (integrated circuit) devices. They came precoded, but I had to install it all into the main board. There are two buttons on the top that allow the user to change values and view different things.
+The alarm music is played through the passive buzzer, which creates the sound. It is basically a speaker. For the alarm itself, you can choose your choice of music, and you can select any time for it to go off. In addition, the crystal oscillator keeps time in perfect sync, and after a few days of use it is still on time.
+There are quite a few Metal Film Resistors, of varying resistance, and they keep components from being overloaded or shorting out. In additions, there are multiple capacitors that temporarily store energy to be kept elsewhere. The thermistor, which changes resistance with temperature. The IC measures this change in resistance to determine the temperature. Finally, the diode at D1 only allows for flow of current in one direction, controlling the flow from going where it shouldn't.
+
 
 <iframe width="1008" height="567" src="https://www.youtube.com/embed/ozKAnxqSFMM?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
