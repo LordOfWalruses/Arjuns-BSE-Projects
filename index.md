@@ -1,5 +1,5 @@
 # Hexapod
-My project is the Hexapod, which is basically a large six-legged "bug" that is able to be remotely controlled. It has many servos that allow each joint of its arm to move independently. In addition, it has an Arduino that controlls all of its functions via code downloaded from my computer. 
+My project is the Hexapod robot, which is basically a large six-legged "bug" that is able to be remotely controlled. It has many servos that allow each joint of its arm to move independently. In addition, it has an Arduino that controlls all of its functions via code downloaded from my computer. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
