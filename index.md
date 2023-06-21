@@ -11,13 +11,7 @@ My project is the Hexapod robot, which is basically a large six-legged "bug" tha
 ![Headstone Image](logo.svg)
 
 # Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 
 # Second Milestone
@@ -99,13 +93,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Screwdriver Kit | Screwing in the screws (the screwdrivers that come with the kit are pretty bad) | $12.99 | <a href="https://www.amazon.com/Amartisan-10-Piece-Screwdrivers-Professional-Screwdriver/dp/B07RFD9JWZ/ref=sr_1_10?crid=MBSH1V7KS2VK&keywords=screwdriver&qid=1687384448&sprefix=screwdriver%2Caps%2C146&sr=8-10"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+
+# Other Resources
+- [Tutorial](https://freenove.com/fnk0031/)
+  - this tutorial was instrumental in helping me understand what was going on and assembling everything correctly. One thing to note is to follow the tutorial to a tee, as if you don't you could skip steps that are actually really important and could have to restart. DO NOT SKIP STEPS!!!
+  - The link will download a folder with all of the files needed for the project. For the tutorial itself, open the file Tutorial_for_V3.pdf
+  - Keep in mind this is version three (V3) of the Hexapod project.
 
 To watch the BSE tutorial on how to create a portfolio, click here.
