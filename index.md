@@ -10,7 +10,7 @@ My project is the Hexapod robot, which is basically a large six-legged "bug" tha
 
 ![Headstone Image](logo.svg)
 
-<!-- # Final Milestone
+# Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -19,7 +19,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Second Milestone
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -30,7 +29,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1008" height="567" src="https://www.youtube.com/embed/BZb4BqTWyt4?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
 For your first milestone, describe what your project is and how you plan to build it. You can include:
@@ -39,10 +38,25 @@ For your first milestone, describe what your project is and how you plan to buil
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+The Hexapod hardware consists of six main parts: 
+- The battery
+- The servos (with wires attatched)
+- The servo disks
+- The arduino control board
+- The acryllic plates
+- The screws
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
--->
+  Together, they make the awesome robot in the video below. Screws are used to screw servo disks to the acryllic plates, and the servo disks are later attatched to the actual servos. Since the disks are firmly screwed on to the acryllic plates, when the servo turns the disks, the acryllic moves with it. All of the wires from the servos are attatched at the bottom of the arduino control board, which is screwed on to the largest acryllic boards. Keep in mind that on some of the acrylic disks that are turned by servos, there are also servos on them, which in turn twist other acryllic plates, all connected to the first servo. The reason the servo disks are tight is because they are going through immense stress close to the body by holding together and lifting a lot of mass.
+
+  Servos are basically motors but don't turn all the way around -- most only turn 180 to 270 degrees. However, the decreased rotation comes with increased control and fine tuning. With an intricate machine like the hexapod, precision is key to achieve a proper walking form.
+
+  The main challenges I faced were definitely screwing in the servo disks and attatching the servos to their respective disks. There are 18 servos on the robot, and each of them attatches to a disk. Each of the disks take four screws to attatch, and each of them are really tight. In addition, after I finished screwing them in, it turned out that I put them in the wrong way! I had to unscrew each of the screws, turn around the servo disks, and rescrew the screws. Also, once I screwed all of them in the right way, I had to attatch the servos to them. The main challenge was that they had to be attatched in a specific orientation, since if they weren't attatched in the right way, the hexapod's range of motion would be compromised.
+
+  Next, I want to make the remote and calibrate it to the hexapod, so it can control it. I also want to add a custom holder for the battery, a case for the remote, and other modifications that I will think of.
+
+
+<iframe width="1008" height="567" src="https://www.youtube.com/embed/BxPI1ASxOl8?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # Starter Project
 
   My starter project was the digital clock. It can tell the time, temperature, date, and even wake you up with an alarm! The clock has a lot of intricate components, like the crystal oscilator, which tells time and seconds. The whole setup is controlled by two IC (integrated circuit) devices. They came precoded, but I had to install it all into the main board. There are two buttons on the top that allow the user to change values and view different things.
