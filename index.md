@@ -63,7 +63,7 @@ The Hexapod hardware consists of six main parts:
 
 <iframe width="1008" height="567" src="https://www.youtube.com/embed/ozKAnxqSFMM?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
+<!--
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
@@ -82,21 +82,21 @@ void loop() {
 
 }
 ```
-
+-->
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| FREENOVE Hexapod Kit with Remote | Its basically everything you need | $129.95 | <a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/ref=sr_1_2?crid=VVKE0UP3OLNP&keywords=FREENOVE+hexapod+kit&qid=1687384706&sprefix=freenove+hexapod+ki%2Caps%2C139&sr=8-2"> Link </a> |
+| FREENOVE Hexapod Kit with Remote | It's basically everything you need | $129.95 | <a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/ref=sr_1_2?crid=VVKE0UP3OLNP&keywords=FREENOVE+hexapod+kit&qid=1687384706&sprefix=freenove+hexapod+ki%2Caps%2C139&sr=8-2"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Screwdriver Kit | Screwing in the screws (the screwdrivers that come with the kit are pretty bad) | $12.99 | <a href="https://www.amazon.com/Amartisan-10-Piece-Screwdrivers-Professional-Screwdriver/dp/B07RFD9JWZ/ref=sr_1_10?crid=MBSH1V7KS2VK&keywords=screwdriver&qid=1687384448&sprefix=screwdriver%2Caps%2C146&sr=8-10"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 
 # Other Resources
-- [Tutorial](https://freenove.com/fnk0031/)
+- [Tutorial and Files](https://freenove.com/fnk0031/)
   - this tutorial was instrumental in helping me understand what was going on and assembling everything correctly. One thing to note is to follow the tutorial to a tee, as if you don't you could skip steps that are actually really important and could have to restart. DO NOT SKIP STEPS!!!
   - The link will download a folder with all of the files needed for the project. For the tutorial itself, open the file Tutorial_for_V3.pdf
   - Keep in mind this is version three (V3) of the Hexapod project.
