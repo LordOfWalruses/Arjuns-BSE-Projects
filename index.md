@@ -27,7 +27,8 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+  For my second milestone, I finished my remote. It consists of the battery, joystick, wireless module, potentiometers, power button, power port, and arduino boards. The battery obviously provides power for the whole operation, allowing everything to run smoothly. The joystick is basically user input, measuring what the user, in this case me, wants to do and telling the arduino that. The wireless module is for sending the processed input to the hexapod. It is like a pipe from a chocolate factory to a grocery store or to someone's mouth. The joystick is like the raw cacao beans, and the arduino is like the actual factory that turns the cacao beans into processed chocolate, that is compatible with humans, basically the hexapod. 
+  Really, assembling the remote was quite easy, but I learned a lot from it, like what a potentiometer is -- basically an adjustable resistor. I took the time to understand how the remote actually works, and I gained much understanding from it.
 
 <iframe width="1008" height="567" src="https://www.youtube.com/embed/BZb4BqTWyt4?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
