@@ -95,7 +95,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| FREENOVE Hexapod Kit with Remote | Its basically everything you need | $129.95 | <a href="(https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/ref=sr_1_2_sspa crid=1XVXZ88Y5IM6&keywords=freenove+hexapod&qid=1687384273&sprefix=freenove+hexapod%2Caps%2C137&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)"> Link </a> |
+| FREENOVE Hexapod Kit with Remote | Its basically everything you need | $129.95 | <a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/ref=sr_1_2?crid=VVKE0UP3OLNP&keywords=FREENOVE+hexapod+kit&qid=1687384706&sprefix=freenove+hexapod+ki%2Caps%2C139&sr=8-2"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Screwdriver Kit | Screwing in the screws (the screwdrivers that come with the kit are pretty bad | $12.99 | <a href="https://www.amazon.com/Amartisan-10-Piece-Screwdrivers-Professional-Screwdriver/dp/B07RFD9JWZ/ref=sr_1_10?crid=MBSH1V7KS2VK&keywords=screwdriver&qid=1687384448&sprefix=screwdriver%2Caps%2C146&sr=8-10"> Link </a> |
 |:--:|:--:|:--:|:--:|
