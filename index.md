@@ -12,7 +12,13 @@ My project is the Hexapod robot, which is basically a large six-legged "bug" tha
 -->
 # Final Milestone
 
+# Third Milestone
 
+<iframe width="1038" height="584" src="https://www.youtube.com/embed/J3EQ6ztByLU?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  For my third milestone, I connected the hexapod to my remote and made it control the robot. This step was actually quite simple. All I had to do was add some code to the remote and it was done! However, a problem I immediately noticed was that all of the cables from the servos were inhibiting the movement of the limbs and in general were an eyesore. I used some sleeve cables to tie them up and keep everything from tangling up.
+
+  Next, I want to make a case for the remote, so it is easier to carry. I also want to make a holder for the battery and use an ultrasonic sensor to make it not run into walls or crawl off cliffs. To sum it up, I have a lot of work ahead of me.
 
 # Second Milestone
 
