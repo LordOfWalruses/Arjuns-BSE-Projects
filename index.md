@@ -105,5 +105,3 @@ Don't forget to place the link of where to buy each component inside the quotati
   - this tutorial was instrumental in helping me understand what was going on and assembling everything correctly. One thing to note is to follow the tutorial to a tee, as if you don't you could skip steps that are actually really important and could have to restart. DO NOT SKIP STEPS!!!
   - The link will download a folder with all of the files needed for the project. For the tutorial itself, open the file Tutorial_for_V3.pdf
   - Keep in mind this is version three (V3) of the Hexapod project.
-
-To watch the BSE tutorial on how to create a portfolio, click here.
