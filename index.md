@@ -16,16 +16,23 @@ My project is the Hexapod robot, which is basically a large six-legged "bug" tha
 
 <iframe width="1038" height="584" src="https://www.youtube.com/embed/J3EQ6ztByLU?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-  For my third milestone, I connected the hexapod to my remote and made it control the robot. This step was actually quite simple. All I had to do was add some code to the remote and it was done! However, a problem I immediately noticed was that all of the cables from the servos were inhibiting the movement of the limbs and in general were an eyesore. I used some sleeve cables to tie them up and keep everything from tangling up.
+  For my third milestone, I connected the hexapod to my remote and made it control the robot. This step was actually quite simple. All I had to do was upload some code to the remote and it was done! However, a problem I immediately noticed was that all of the cables from the servos were inhibiting the movement of the limbs and in general were an eyesore. I used some sleeve cables to tie them up and keep everything from tangling up.
 
-  Next, I want to make a case for the remote, so it is easier to carry. I also want to make a holder for the battery and use an ultrasonic sensor to make it not run into walls or crawl off cliffs. To sum it up, I have a lot of work ahead of me.
+  While testing the hexapod and remote, I actually discovered a new feature! I realized that I could use one of the potentiometers, dials that change resistance based on how much it is turned, could change the height of the hexapod. The way it does this is that it measures the resistance. When the dial is turned, the resistance changes, and it measures that to change the height.
+
+  Next, I want to make a case for the remote, so it is easier to carry. I also want to make a holder for the battery and use an ultrasonic sensor to make it not run into walls or crawl off cliffs. I think it would be also really  cool to attatch a mini camera so it could take video and wirelessly upload it to my computer. To sum it up, I have a lot of work ahead of me.
+
+  For the remote case, I plan to 3D-print a shell for it, using either tinkercad or onshape. For the battery holder, I will probably use a platform and some velcro. Attatching the ultrasonic sensor might be challenging, as there aren't many pins on the arduino, and the mini camera will be probably the toughest of them all.
 
 # Second Milestone
 
 <iframe width="1008" height="567" src="https://www.youtube.com/embed/BZb4BqTWyt4?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
   For my second milestone, I finished my remote. It consists of the battery, joystick, wireless module, potentiometers, power button, power port, and arduino boards. The battery obviously provides power for the whole operation, allowing everything to run smoothly. The joystick is basically user input, measuring what the user, in this case me, wants to do and telling the arduino that. The wireless module is for sending the processed input to the hexapod. It is like a pipe from a chocolate factory to a grocery store or to someone's mouth. The joystick is like the raw cacao beans, and the arduino is like the actual factory that turns the cacao beans into processed chocolate, that is compatible with humans, basically the hexapod. 
-  Really, assembling the remote was quite easy, but I learned a lot from it, like what a potentiometer is -- basically an adjustable resistor. I took the time to understand how the remote actually works, and I gained much understanding from it.
+  
+  Really, assembling the remote was quite easy, but I learned a lot from it, like what a potentiometer is -- basically an adjustable resistor. I took the time to understand how the remote actually works, and I gained much understanding from it. I was able to identify many components on the wireless module, too! There was a crystal oscillator, which keeps time, and LEDs, light-emmitting-diodes.
+
+  The top part of the remote is actually the "remote shield", and the actual processing area is at the bottom, the actual control board. There are two power ports, one on the remote shield, and one on the control board, but I now know that I should plug in the top one, as it has the power button that will actually affect on and off, instead of doing nothing. The remote shield takes input from the user, via the joystick and potentiometer, sends it to the control board below, which sends a signal, through the remote shield, to the wireless module, and from there to the hexapod.
 
 # First Milestone
 
@@ -89,6 +96,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Screwdriver Kit | Screwing in the screws (the screwdrivers that come with the kit are pretty bad) | $12.99 | <a href="https://www.amazon.com/Amartisan-10-Piece-Screwdrivers-Professional-Screwdriver/dp/B07RFD9JWZ/ref=sr_1_10?crid=MBSH1V7KS2VK&keywords=screwdriver&qid=1687384448&sprefix=screwdriver%2Caps%2C146&sr=8-10"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Tenergy NiMH 7.2 Volt Battery | This is a different battery than the one used in the tutorial, but it is safer. I custom soddered on a different connection for the battery. | $35.49 | <a href="https://power.tenergy.com/tenergy-nimh-7-2v-3000mah-battery-pack-w-tamiya-connector-for-rc-cars/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| 2-pack Ultrasonic Sensor | Detects if it will run into a wall. 2-pack in case one sensor doesn't work or burns out. | $5.99 | <a href="https://www.amazon.com/Ultrasonic-HC-SR04-Distance-Measuring-Transducer/dp/B077P72HG7/ref=asc_df_B077P72HG7/?tag=hyprod-20&linkCode=df0&hvadid=647333030603&hvpos=&hvnetw=g&hvrand=14530903250853092126&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-1956816726630&psc=1&gclid=CjwKCAjwkeqkBhAnEiwA5U-uM-mI5A-fgRsDspMcfOU3K3fKgvI9xuYYZmAC2xeCcsb7AeINN1U-thoC1KsQAvD_BwE"> Link </a> |
 
 
 # Other Resources
