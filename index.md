@@ -95,7 +95,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Screwdriver Kit | Screwing in the screws (the screwdrivers that come with the kit are pretty bad) | $12.99 | <a href="https://www.amazon.com/Amartisan-10-Piece-Screwdrivers-Professional-Screwdriver/dp/B07RFD9JWZ/ref=sr_1_10?crid=MBSH1V7KS2VK&keywords=screwdriver&qid=1687384448&sprefix=screwdriver%2Caps%2C146&sr=8-10"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Tenergy NiMH 7.2 Volt Battery | This is a different battery than the one used in the tutorial, but it is safer. I custom soddered on a different connection for the battery. | $35.49 | <a href="https://power.tenergy.com/tenergy-nimh-7-2v-3000mah-battery-pack-w-tamiya-connector-for-rc-cars/"> Link </a> |
+| Tenergy NiMH 7.2 Volt Battery | This is a different battery than the one used in the tutorial, but it is safer. I custom soldered on a different connection for the battery. | $35.49 | <a href="https://power.tenergy.com/tenergy-nimh-7-2v-3000mah-battery-pack-w-tamiya-connector-for-rc-cars/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | 2-pack Ultrasonic Sensor | Detects if it will run into a wall. 2-pack in case one sensor doesn't work or burns out. | $5.99 | <a href="https://www.amazon.com/Ultrasonic-HC-SR04-Distance-Measuring-Transducer/dp/B077P72HG7/ref=asc_df_B077P72HG7/?tag=hyprod-20&linkCode=df0&hvadid=647333030603&hvpos=&hvnetw=g&hvrand=14530903250853092126&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-1956816726630&psc=1&gclid=CjwKCAjwkeqkBhAnEiwA5U-uM-mI5A-fgRsDspMcfOU3K3fKgvI9xuYYZmAC2xeCcsb7AeINN1U-thoC1KsQAvD_BwE"> Link </a> |
 
