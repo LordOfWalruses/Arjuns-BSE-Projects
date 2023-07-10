@@ -70,7 +70,7 @@ The Hexapod hardware consists of six main parts:
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+I put the following code in the FNHR.cpp file in the src file of the library FNHR, used to control the robot. The full code I used to upload is included in this branch, but this is the basic code that made sure that the robot doesn't just run into a wall:
 
 ```c++
 
@@ -111,6 +111,42 @@ float RobotAction::readSensorData(){
 }
 ```
 
+
+This is the code to put in the Arduino IDE:
+
+```c++
+
+
+#ifndef ARDUINO_AVR_MEGA2560
+#error Wrong board. Please choose "Arduino/Genuino Mega or Mega 2560"
+#endif
+
+// Include FNHR (Freenove Hexapod Robot) library
+#include <FNHR.h>
+
+FNHR robot;
+// Makes variables for the ports for the ultrasonic sensor:
+const int trigPin = 3; 
+const int echoPin = 2;
+
+void setup() {
+  // Defines the pins of the ultrasonic sensor
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  Serial.begin(9600); // Starts the Serial Monitor
+  robot.Start(true);
+}
+
+void loop() {
+  // Update Freenove Hexapod Robot
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  robot.Update();
+
+}
+
+
+```
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
