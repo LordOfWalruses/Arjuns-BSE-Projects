@@ -10,7 +10,6 @@ My project is the Hexapod robot, which is basically a large six-legged "bug" tha
 
 ![Headstone Image](logo.svg)
 -->
-# Final Milestone
 
 # Third Milestone
 
