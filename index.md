@@ -73,15 +73,41 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+
+bool RobotAction::UltraSonicSensor(){
+  Serial.println("alsdkfjaldkfja;ldkjfa");
+  float ultraDistance = readSensorData();
+  if (25 < ultraDistance){
+    return true;
+  }
+  return false;
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+float RobotAction::readSensorData(){
+  float soundDuration;
+  // float sensorDistance;
+  
+  // Serial.print("trigPin: ");
+  // Serial.println(trigPin);
+  // Serial.print("echoPin: ");
+  // Serial.println(echoPin);
 
+  digitalWrite(trigPin, LOW);// trigPin is 3
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin,LOW);
+  soundDuration = pulseIn(echoPin, HIGH); // echoPin is 2
+  sensorDistance = soundDuration * 0.034 / 2;
+  // Serial.print("dur ");
+  // Serial.println(soundDuration);
+  Serial.print("dis ");
+  Serial.println(sensorDistance);
+  
+  // Serial.println("final distance: ");
+  // Serial.print(sensorDistance);
+
+  return sensorDistance;
 }
 ```
 -->
