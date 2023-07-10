@@ -65,7 +65,7 @@ The Hexapod hardware consists of six main parts:
 
   There are quite a few Metal Film Resistors, of varying resistance, and they keep components from being overloaded or shorting out. In additions, there are multiple capacitors that temporarily store energy to be kept elsewhere. The thermistor, which changes resistance with temperature. The IC measures this change in resistance to determine the temperature. Finally, the diode at D1 only allows for flow of current in one direction, controlling the flow from going where it shouldn't.
 
-<!--
+
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
@@ -110,7 +110,7 @@ float RobotAction::readSensorData(){
   return sensorDistance;
 }
 ```
--->
+
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
