@@ -237,6 +237,10 @@ uint8_t read_fifo_burst(ArduCAM myCAM)
   return 1;
 }
 ```
+For the memorysaver.h file, download the ArduCAM folder in this link and add it to your libraries (add it to your libraries folder in your arduino folder):
+https://github.com/ArduCAM/Arduino
+
+  I had a lot of fun making the hexapod, and I definitely reccomend you to try this project yourself!
 
 # Third Milestone
 
