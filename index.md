@@ -9,7 +9,7 @@ My project is the Hexapod robot, which is basically a large six-legged "bug" tha
 
 # Final Milestone
 
-<iframe width="1512" height="696" src="https://www.youtube.com/embed/fmRgQdf--kc?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Final Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="756" height="348" src="https://www.youtube.com/embed/fmRgQdf--kc?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Final Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
   For my final milestone, I did A LOT. I made four massive modifications, and made sure they all worked! My mods were as follows: An ultrasonic sensor to make sure it can't run into walls, a wooden platform to keep the battery from squishing my components, a 3D printed case for the remote, and a camera to take pictures of the surroundings.
 
