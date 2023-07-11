@@ -299,6 +299,10 @@ The Hexapod hardware consists of six main parts:
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
+  Steps to opening arduino libraries folder: Search Arduino in your file hub (finder for mac, windows button for windows). The folder should simply be named Arduino. In the Arduino folder, there should be a folder called libraries. Open that folder. In that folder are all of the files for your libraries. If you want to change them, simply open them and edit them. If you are looking to edit the hexapod code, open the FNHR folder (still in the libraries folder). In that, open the src folder. You can replace the entire src folder with the modified version included, or you can try to edit it on your own!
+
+  If you want to add a library manually, you can simply drag and drop a folder to it. For example, if you want to add the ArduCAM folder, open the libraries folder, and simply drag and drop the Arducam folder included into the library.
+  
 # Code
 I put the following code in the FNHR.cpp file in the src file of the library FNHR, used to control the robot. The full customizedcode I used to upload is included in this branch, but this is most of the basic code that made sure that the robot doesn't just run into a wall:
 
