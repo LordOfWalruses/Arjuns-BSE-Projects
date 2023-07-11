@@ -1,5 +1,5 @@
 # Hexapod
-My project is the Hexapod robot, which is basically a large six-legged "bug" that is able to be remotely controlled. It has many servos that allow each joint of its arm to move independently. In addition, it has two Arduinos that control all of its functions via code downloaded from my computer. It physicaly cannot run into a wall, via an ultrasonic sensor on the front, and can take spy camera footage!
+My project is the Hexapod robot, which is basically a large six-legged "bug" that is able to be remotely controlled. It has many servos that allow each joint of its arm to move independently. In addition, it has two Arduinos that control all of its functions via code downloaded from my computer. It physicaly cannot run into a wall, via an ultrasonic sensor on the front, and can take spy camera pictures!
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -15,7 +15,11 @@ My project is the Hexapod robot, which is basically a large six-legged "bug" tha
 
   The ultrasonic sensor was definitely one of the hardest modifications to pull off. The code itself was simple, but implementing it among the thousands of lines of code already in the robot was challenging, to say the least. One of the first problems I discovered was that the crawlForward() function in the code wasn't affecting the robot at all! In fact, if I commented out the entire file and then uploaded it, nothing changed! At this point I knew that what I was uploading was not what I had edited. In fact, I had been editing a copy of the actual library, not the library itself. After delving through my files, I found it in My Arduino folder. Inside the folder was another folder called Libraries, and in there were the files for the libraries. There, was a folder called src, and in there was the actual files I needed. Once  I uploaded the modified code, but it still didn't work! This time, the problem was that the ultrasonic sensor was returning a distance of zero every time!
 
-  When I took the code outside of the main file, and just uploaded that to the ultrasonic  sensor, it worked fine! Even when I changed all of the variables 
+  When I took the code outside of the main file, and just uploaded that to the ultrasonic  sensor, it worked fine! Even when I changed all of the variables, it wasn't working. Finally, I figured out that I needed to make duplicates of the file so that it could be properly called, and to add it in the .h files! Once I did that, it finally worked fine! 
+
+  Next, I made a platform to hold up the battery. All I really had to do was cut a piece of wood, Attatch some velcro, and raise it up on some standoffs. However, It got in the way of future modifications, as you will see soon. The battery platform was the beginning of a tower that would grow to more than double the hexapod's overall height.
+
+  The remote case is made up of a top and a bottom. The top is completely removeable, and while the bottom is removeable, it will probably stay on the remote for eternity. The CAD for the reomote case is <a href="https://cad.onshape.com/documents/7271dc6e933066dc4955ebfb/w/275ff894963fda49f0d49827/e/79d1dd127091306e85ff1543?renderMode=0&uiState=64adc5a71aca996d04ee6788"> here </a> .
 
 # Third Milestone
 
