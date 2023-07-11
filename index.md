@@ -13,7 +13,13 @@ My project is the Hexapod robot, which is basically a large six-legged "bug" tha
 
 # Final Milestone
 
-For my final milestone, I did A LOT. I made four massive modifications, and made sure they all worked! My mods were as follows: 
+<iframe width="1512" height="696" src="https://www.youtube.com/embed/fmRgQdf--kc?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Final Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  For my final milestone, I did A LOT. I made four massive modifications, and made sure they all worked! My mods were as follows: An ultrasonic sensor to make sure it can't run into walls, a wooden platform to keep the battery from squishing my components, a 3D printed case for the remote, and a camera to take pictures of the surroundings.
+
+  The ultrasonic sensor was definitely one of the hardest modifications to pull off. The code itself was simple, but implementing it among the thousands of lines of code already in the robot was challenging, to say the least. One of the first problems I discovered was that the crawlForward() function in the code wasn't affecting the robot at all! In fact, if I commented out the entire file and then uploaded it, nothing changed! At this point I knew that what I was uploading was not what I had edited. In fact, I had been editing a copy of the actual library, not the library itself. After delving through my files, I found it in My Arduino folder. Inside the folder was another folder called Libraries, and in there were the files for the libraries. There, was a folder called src, and in there was the actual files I needed. Once  I uploaded the modified code, but it still didn't work! This time, the problem was that the ultrasonic sensor was returning a distance of zero every time!
+
+  When I took the code outside of the main file, and just uploaded that to the ultrasonic  sensor, it worked fine! Even when I changed all of the variables 
 
 # Third Milestone
 
