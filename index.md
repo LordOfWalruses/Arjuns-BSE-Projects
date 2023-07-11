@@ -11,6 +11,10 @@ My project is the Hexapod robot, which is basically a large six-legged "bug" tha
 ![Headstone Image](logo.svg)
 -->
 
+# Final Milestone
+
+For my final milestone, I did A LOT. I made four massive modifications, and made sure they all worked! My mods were as follows: 
+
 # Third Milestone
 
 <iframe width="1038" height="584" src="https://www.youtube.com/embed/J3EQ6ztByLU?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arjun S. Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -159,6 +163,19 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Tenergy NiMH 7.2 Volt Battery | This is a different battery than the one used in the tutorial, but it is safer. I custom soldered on a different connection for the battery. | $35.49 | <a href="https://power.tenergy.com/tenergy-nimh-7-2v-3000mah-battery-pack-w-tamiya-connector-for-rc-cars/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | 2-pack Ultrasonic Sensor | Detects if it will run into a wall. 2-pack in case one sensor doesn't work or burns out. | $5.99 | <a href="https://www.amazon.com/Ultrasonic-HC-SR04-Distance-Measuring-Transducer/dp/B077P72HG7/ref=asc_df_B077P72HG7/?tag=hyprod-20&linkCode=df0&hvadid=647333030603&hvpos=&hvnetw=g&hvrand=14530903250853092126&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-1956816726630&psc=1&gclid=CjwKCAjwkeqkBhAnEiwA5U-uM-mI5A-fgRsDspMcfOU3K3fKgvI9xuYYZmAC2xeCcsb7AeINN1U-thoC1KsQAvD_BwE"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Camera | Takes Photos | $25.99 | <a href="https://www.amazon.com/Arducam-Module-Megapixels-Arduino-Mega2560/dp/B012UXNDOY/ref=asc_df_B012UXNDOY/?tag=hyprod-20&linkCode=df0&hvadid=309807187084&hvpos=&hvnetw=g&hvrand=13377023022640676006&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-570327153549&psc=1"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Arduino Uno | Controls camera | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=sr_1_1_sspa?crid=2JGP4NU4U1TEN&keywords=arduino+uno&qid=1689092480&s=industrial&sprefix=arduino+uno%2Cindustrial%2C175&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| SD card shield | Adds SD card port (just goes straight on top of the Arduino Uno) | $7.69 | <a href="https://www.amazon.com/HiLetgo-Logging-Recorder-Logger-Arduino/dp/B00PI6TQWO/ref=asc_df_B00PI6TQWO/?tag=hyprod-20&linkCode=df0&hvadid=642049291626&hvpos=&hvnetw=g&hvrand=18392829009110491342&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-1948170026853&psc=1&gclid=CjwKCAjw-7OlBhB8EiwAnoOEkw_LXwZ0rSe95R4AOCAtjeEordPJutAuPZYig1Tl1gA3IOEdSDuZMBoC9_0QAvD_BwE"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Jumper Wires | Connects components; used for wiring -- this might be overkill | $5.58 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=asc_df_B01EV70C78/?tag=hyprod-20&linkCode=df0&hvadid=222785939698&hvpos=&hvnetw=g&hvrand=9975027516624232934&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032131&hvtargid=pla-362913641420&th=1"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| 9V battery | Powers remote. Multiple batteries in case one dies. | $9.29 | <a href="https://www.amazon.com/AmazonBasics-Volt-Everyday-Alkaline-Battery/dp/B081FGCRQQ/ref=sr_1_6?keywords=9V+battery&qid=1689092767&sr=8-6"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Micro SD card w/ adapter | Stores photos and data from camera | $10.50 | <a href="https://www.amazon.com/Amazon-Basics-microSDXC-Memory-Adapter/dp/B08TJRVWV1/ref=sr_1_1_ffob_sspa?crid=2T4QPKZRSTSIG&keywords=micro+SD+card&qid=1689092924&sprefix=micro+sd+car%2Caps%2C244&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+
 
 
 # Other Resources
