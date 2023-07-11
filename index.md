@@ -300,7 +300,7 @@ The Hexapod hardware consists of six main parts:
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-I put the following code in the FNHR.cpp file in the src file of the library FNHR, used to control the robot. The full code I used to upload is included in this branch, but this is most of the basic code that made sure that the robot doesn't just run into a wall:
+I put the following code in the FNHR.cpp file in the src file of the library FNHR, used to control the robot. The full customizedcode I used to upload is included in this branch, but this is most of the basic code that made sure that the robot doesn't just run into a wall:
 
 ```c++
 
